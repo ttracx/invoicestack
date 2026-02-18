@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧾 InvoiceStack
 
-## Getting Started
+A professional SaaS invoice generator built with Next.js 15, featuring PDF export, client management, and payment tracking.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Professional Invoice Generation** - Create beautiful invoices with automatic calculations
+- **PDF Export** - Export invoices as professional PDFs using jsPDF
+- **Client Management** - Organize and manage your customer database
+- **Payment Tracking** - Track invoice payments and status
+- **Responsive Design** - Works perfectly on desktop and mobile
+- **Subscription Billing** - $9.99/month via Stripe integration
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS
+- **Authentication**: NextAuth.js
+- **Database**: PostgreSQL with Prisma ORM
+- **PDF Generation**: jsPDF
+- **Payments**: Stripe
+- **Deployment**: Vercel
+
+## 🏃‍♂️ Quick Start
+
+### Demo Credentials
+- **Email**: demo@invoicestack.com
+- **Password**: password
+
+### Local Development
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up environment variables
+4. Run development server: `npm run dev`
+5. Open [http://localhost:3000](http://localhost:3000)
+
+### Environment Variables
+```env
+NEXTAUTH_URL=your-app-url
+NEXTAUTH_SECRET=your-secret
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your-stripe-pk
+STRIPE_SECRET_KEY=your-stripe-sk
+STRIPE_PRICE_ID=your-price-id
+DATABASE_URL=your-database-url
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📱 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Clean, professional landing page
+- Intuitive dashboard with statistics
+- Easy invoice creation interface
+- Beautiful PDF export functionality
+- Client management system
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Pricing
 
-## Learn More
+**Simple & Transparent**: $9.99/month
+- Unlimited invoices
+- Unlimited clients
+- PDF export
+- Payment tracking
+- Email support
 
-To learn more about Next.js, take a look at the following resources:
+## 🏢 About
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Built by VibeCaaS.com, a division of NeuralQuantum.ai LLC.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 InvoiceStack powered by VibeCaaS.com a division of NeuralQuantum.ai LLC. All rights reserved.
